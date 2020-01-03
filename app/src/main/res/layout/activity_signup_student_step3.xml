@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#eeedf0"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:background="@drawable/login_banner">
+    </LinearLayout>
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login_logo"
+            android:layout_centerHorizontal="true"
+           android:layout_marginTop="35dp"
+            android:layout_marginLeft="62dp">
+        </ImageView>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:background="@drawable/login_round_bg"
+        android:orientation="vertical">
+
+
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/futurafont"
+                android:text="Sign Up"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/soetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/login"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/muli"
+                android:text="Please sign up to continue"
+                android:textColor="#C5C6CA"
+
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+
+        </RelativeLayout>
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:padding="10dp"-->
+
+<!--            android:layout_marginLeft="30dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center">-->
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/Linear"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="20dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_marginTop="18dp"-->
+<!--                    android:src="@drawable/person"/>-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/ed_ulast"-->
+<!--                    android:layout_width="254dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/login"-->
+<!--                    android:layout_marginLeft="0dp"-->
+<!--                    android:layout_marginTop="14dp"-->
+<!--                    android:fontFamily="@font/muli"-->
+<!--                    android:minHeight="3dp"-->
+<!--                    android:paddingLeft="15dp"-->
+<!--                    android:background="@null"-->
+<!--                    android:text="FirstName"-->
+<!--                    android:textColor="#E5E8F3"-->
+<!--                    android:textSize="16dp"-->
+<!--                    android:textStyle="bold"></EditText>-->
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:layout_below="@+id/Linear"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="0dp"-->
+<!--                android:layout_marginRight="80dp"-->
+
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="@color/lightgray"></View>-->
+
+<!--        </RelativeLayout>-->
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginTop="10dp">
+
+             <LinearLayout
+            android:id="@+id/LinearView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="3dp"
+
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/men"/>
+            <EditText
+                android:id="@+id/ed_vc_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/LinearView"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="24dp"
+
+                android:background="@null"
+                android:fontFamily="@font/muli"
+                android:hint="Father Name"
+                android:paddingLeft="13dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#CDD1DB"
+                android:textSize="16dp"></EditText>
+
+        </LinearLayout>
+
+            <View
+                android:layout_below="@+id/LinearView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="40dp"
+
+                android:layout_marginTop="5dp"
+                android:background="@color/lightgray"></View>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LinearView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/LinearView"
+                android:layout_marginLeft="3dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/women"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/login"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="24dp"
+                    android:id="@+id/ed_dob"
+                    android:background="@null"
+                    android:fontFamily="@font/muli"
+                    android:hint="Mother Name"
+                    android:layout_marginRight="100dp"
+                    android:paddingLeft="13dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="#CDD1DB"
+                    android:textSize="16dp"
+                   ></EditText>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_below="@+id/LinearView2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="40dp"
+
+                android:layout_marginTop="5dp"
+                android:background="@color/lightgray"></View>
+
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/LinearView3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_below="@id/LinearView2"-->
+<!--                android:orientation="horizontal">-->
+
+
+
+<!--                <ImageView-->
+<!--                    android:layout_width="20dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_marginTop="24dp"-->
+<!--                    android:src="@drawable/password_forgot"/>-->
+<!--                <Spinner-->
+<!--                    android:id="@+id/ed_state"-->
+<!--                    android:layout_width="254dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/login"-->
+<!--                    android:layout_marginLeft="0dp"-->
+<!--                    android:layout_marginTop="14dp"-->
+<!--                    android:fontFamily="@font/muli"-->
+<!--                    android:minHeight="3dp"-->
+<!--                    android:paddingLeft="15dp"-->
+<!--                    android:text="FirstName"-->
+<!--                    android:textColor="#E5E8F3"-->
+<!--                    android:textSize="16dp"-->
+<!--                    android:textStyle="bold"></Spinner>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:layout_below="@+id/LinearView3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="0dp"-->
+<!--                android:layout_marginRight="40dp"-->
+
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="@color/lightgray"></View>-->
+
+
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/LinearView4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:layout_below="@id/LinearView3"-->
+<!--                android:orientation="horizontal">-->
+
+
+
+<!--                <ImageView-->
+<!--                    android:layout_width="20dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_marginTop="24dp"-->
+<!--                    android:src="@drawable/password_forgot"/>-->
+<!--                <Spinner-->
+<!--                    android:id="@+id/ed_city"-->
+<!--                    android:layout_width="254dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_below="@id/login"-->
+<!--                    android:layout_marginLeft="0dp"-->
+<!--                    android:layout_marginTop="14dp"-->
+<!--                    android:fontFamily="@font/muli"-->
+<!--                    android:minHeight="3dp"-->
+<!--                    android:paddingLeft="15dp"-->
+<!--                    android:text="FirstName"-->
+<!--                    android:textColor="#E5E8F3"-->
+<!--                    android:textSize="16dp"-->
+<!--                    android:textStyle="bold"></Spinner>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <View-->
+<!--                android:layout_below="@+id/LinearView4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_marginLeft="0dp"-->
+<!--                android:layout_marginRight="40dp"-->
+
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:background="@color/lightgray"></View>-->
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LinearView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/LinearView2"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/adharcard"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/LinearView2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="24dp"
+                    android:id="@+id/ed_addhar_number"
+                    android:background="@null"
+                    android:fontFamily="@font/muli"
+                    android:hint="Aadhar Number"
+                    android:paddingLeft="13dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="#CDD1DB"
+                    android:textSize="16dp"
+                    android:textStyle="bold"></EditText>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_below="@+id/LinearView4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="40dp"
+
+                android:layout_marginTop="5dp"
+                android:background="@color/lightgray"></View>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LinearView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/LinearView4"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/blood_group"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/LinearView4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="24dp"
+                    android:id="@+id/ed_confirm_password"
+                    android:background="@null"
+                    android:fontFamily="@font/muli"
+                    android:hint="Blood Group"
+                    android:paddingLeft="13dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="#CDD1DB"
+                    android:textSize="16dp"
+                    android:textStyle="bold"></EditText>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_below="@+id/LinearView5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="40dp"
+
+                android:layout_marginTop="5dp"
+                android:background="@color/lightgray"></View>
+
+
+
+
+
+
+
+        </RelativeLayout>
+<!--     -->
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btn_sign_up_student_step3_next"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:background="@drawable/shaded_button"
+                android:paddingLeft="2dp"
+                android:text="Next"></Button>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="17dp"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="center"
+         android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="@font/muli"
+            android:text="Already Exist?"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/futurafont"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:id="@+id/step3_login"
+            android:text="Login "></TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

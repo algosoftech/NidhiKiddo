@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#fff"
+        app:cardBackgroundColor="#fff"
+        app:cardCornerRadius="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:layout_gravity="center">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+<!--                <android.support.v7.widget.CardView-->
+<!--                    android:id="@+id/thumbnail"-->
+<!--                    android:layout_width="60dp"-->
+<!--                    android:layout_height="60dp"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_marginRight="7dip"-->
+<!--                    android:padding="2dip"-->
+<!--                    app:cardElevation="7dp">-->
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circle"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_gravity="center_horizontal"
+
+
+                    android:src="@drawable/kidimage"
+
+                    />
+
+<!--                    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                        android:id="@+id/circle"-->
+<!--                        android:layout_width="60dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:padding="15dp"-->
+<!--                        android:src="@drawable/forgotuser_icon"-->
+<!--                        android:adjustViewBounds="true" />-->
+<!--                </android.support.v7.widget.CardView>-->
+
+                <!-- Title Of Song -->
+
+                <TextView
+                    android:id="@+id/news"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/circle"
+                    android:fontFamily="@font/muli"
+                    android:lines="1"
+                    android:text="Shiva Agarwal.."
+                    android:textColor="@color/black"
+                    android:textSize="19dp"
+                    android:textStyle="bold">
+
+
+                </TextView>
+                <!--        #606e82-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="left"
+                    android:layout_toRightOf="@id/circle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/news">
+
+
+                    <TextView
+                        android:id="@+id/tv_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/news"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/muli"
+                        android:layout_toRightOf="@id/circle"
+                        android:lines="1"
+                        android:text="Location"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+                    <TextView
+                        android:id="@+id/posted"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/news"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/muli"
+                        android:layout_toRightOf="@id/circle"
+                        android:lines="1"
+                        android:text="Jss College"
+                        android:textColor="#8C98A8"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="358dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/news"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tv_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/news"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/circle"
+                        android:fontFamily="@font/muli"
+                        android:lines="1"
+                        android:text="Time"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_time2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/news"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/circle"
+                        android:fontFamily="@font/muli"
+                        android:lines="1"
+                        android:text="6 : 15 AM"
+                        android:textColor="#8C98A8"
+                        android:textSize="14dp" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--            android:layout_centerInParent="true"-->
+<!--                android:layout_marginTop="60dp"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_marginRight="5dp"-->
+<!--                android:src="@drawable/ic_keyboard_arrow_right_black_24dp"></ImageView>-->
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+

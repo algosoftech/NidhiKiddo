@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/Button_next"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:background="@drawable/shaded_button"
+            android:text="Next">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>

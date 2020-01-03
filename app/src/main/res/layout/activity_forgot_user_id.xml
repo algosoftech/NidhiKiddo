@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#eeedf0"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:background="@drawable/forgotuser_bg">
+    </LinearLayout>
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="62dp">
+    </ImageView>
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:background="@drawable/login_round_bg"
+        android:orientation="vertical">
+
+
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginRight="0dp"
+                    android:src="@drawable/forgotuser_icon"
+
+                     />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot your User Id?"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/futurafont"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enter your mobile number below and we'll send your user Id to your mobile number."
+                    android:gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:textColor="@color/gray"
+
+                    android:fontFamily="@font/muli"></TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/Linear"
+                    android:layout_width="250dp"
+                    android:layout_height="57dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="18dp"
+                        android:src="@drawable/phone" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/login"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="14dp"
+                        android:background="@null"
+                        android:fontFamily="@font/muli"
+                        android:paddingLeft="14dp"
+                        android:singleLine="true"
+                        android:hint="Phone Number "
+                        android:textColor="@color/colorAccent"
+                        android:maxLength="10"
+                        android:textColorHint="#CDD1DB"
+                        android:inputType="number"
+                        android:textSize="16dp"
+                        android:textStyle="bold"></EditText>
+
+
+                </LinearLayout>
+                <View
+                    android:layout_below="@+id/Linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginRight="120dp"
+                    android:layout_marginTop="-5dp"
+                    android:background="@color/lightgray"></View>
+
+                <Button
+                    android:id="@+id/btn_forgot_user_id"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/Linear"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="40dp"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+
+                    android:background="@drawable/shaded_button"
+                    android:paddingLeft="2dp"
+                    android:text="Submit"></Button>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

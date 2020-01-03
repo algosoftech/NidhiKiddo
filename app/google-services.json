@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182830947228",
+    "firebase_url": "https://kiddo-797fe.firebaseio.com",
+    "project_id": "kiddo-797fe",
+    "storage_bucket": "kiddo-797fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182830947228:android:84a75ec2480bc589f34659",
+        "android_client_info": {
+          "package_name": "com.mykiddo.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182830947228-vla4ndvbf0mej31u867upaf1457t87jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mykiddo.app",
+            "certificate_hash": "4a86ed86ef6b794f6f5affd0e0a25381ac9cbebf"
+          }
+        },
+        {
+          "client_id": "182830947228-9j6krp5ac2plsurnhnjvdeod3pbm5c4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9oN1f92h7MoHj2vFZi_N15L4Ag4NHAPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182830947228-9j6krp5ac2plsurnhnjvdeod3pbm5c4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

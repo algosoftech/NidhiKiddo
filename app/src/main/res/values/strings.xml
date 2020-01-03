@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyKiddo</string>
+    <string name="support">Support @MyKiddo</string>
+    <string name="network">Please Check Your Network Connection</string>
+</resources>

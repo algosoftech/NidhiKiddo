@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/shaded_alret"
+        android:padding="2dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:drawableTint="#fff"
+                android:drawablePadding="10dp"
+                android:text="Seleclet Image"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/separator"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/purple"
+            android:layout_below="@+id/header"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/separator"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_btn_takepic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a Photo"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:padding="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#fff">
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_btn_gallery_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photo From Gallary"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:padding="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
